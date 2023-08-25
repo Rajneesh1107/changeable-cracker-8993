@@ -1,0 +1,231 @@
+{  
+    "flights": [
+        {
+            "id": 1,
+            "planetId": 1,
+            "name": "Orion",
+            "description": "A flight to the Moon, the nearest celestial body to Earth. Experience the thrill of walking on the lunar surface and seeing the Earth from afar.",
+            "departureDate": "2023-09-01",
+            "tripTime": "5 days",
+            "crew": "Astronaut A, Astronaut B",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Orion_Artemis_I_Selfie_1.jpg/800px-Orion_Artemis_I_Selfie_1.jpg"
+        },
+        {
+            "id": 2,
+            "planetId": 2,
+            "name": "Aurora",
+            "description": "A flight to the Northern Lights, the spectacular natural phenomenon that occurs in the high-latitude regions of Earth. Witness the dazzling display of colors and shapes in the night sky.",
+            "departureDate": "2023-10-15",
+            "tripTime": "10 days",
+            "crew": "Astronaut C, Astronaut D",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aurora_x-plane_3.jpg"
+        },
+        {
+            "id": 3,
+            "planetId": 3,
+            "name": "Galileo",
+            "description": "A flight to Jupiter, the largest planet in the solar system. Explore the giant gas world and its many moons, such as Io, Europa, Ganymede, and Callisto.",
+            "departureDate": "2023-11-05",
+            "tripTime": "7 days",
+            "crew": "Astronaut E, Astronaut F",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1024px-Artwork_Galileo-Io-Jupiter.JPG"
+        },
+        {
+            "id": 4,
+            "planetId": 4,
+            "name": "Cassini",
+            "description": "A flight to Saturn, the ringed planet that is second only to Jupiter in size and mass. Marvel at the beauty and complexity of its rings and its diverse satellites, such as Titan, Enceladus, Mimas, and Rhea.",
+            "departureDate": "2023-12-20",
+            "tripTime": "14 days",
+            "crew": "Astronaut G, Astronaut H",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Progress_M-06M.jpg/1280px-Progress_M-06M.jpg"
+        },
+        {
+            "id": 5,
+            "planetId": 5,
+            "name": "Voyager",
+            "description": "A flight to Uranus, the ice giant that lies on its side. Discover the secrets of its tilted axis, its extreme seasons, and its 27 moons, such as Miranda, Ariel, Umbriel, Titania, and Oberon.",
+            "departureDate": "2024-01-10",
+            "tripTime": "6 days",
+            "crew": "Astronaut I, Astronaut J",
+            "image": "https://www.spacex.com/human-spaceflight/assets/images/starship.webp"
+        },
+        {
+            "id": 6,
+            "planetId": 6,
+            "name": "Neptune",
+            "description": "A flight to Neptune, the farthest planet from the Sun. Experience the cold and windy conditions of this blue world and its 14 moons, such as Triton, Nereid, Proteus, and Larissa.",
+            "departureDate": "2024-02-18",
+            "tripTime": "12 days",
+            "crew": "Astronaut K, Astronaut L",
+            "image": ""
+        },
+        {
+            "id": 7,
+            "planetId": 7,
+            "name": "Pluto",
+            "description": "A flight to Pluto, the dwarf planet that was once considered the ninth planet. Visit the icy and rocky surface of this distant world and its five moons, such as Charon, Nix, Hydra, Kerberos, and Styx.",
+            "departureDate": "2024-03-25",
+            "tripTime": "8 days",
+            "crew": "Astronaut M, Astronaut N",
+            "image": "https://example.com/flight7.jpg"
+        },
+        {
+            "id": 8,
+            "planetId": 8,
+            "name": "Kepler",
+            "description": "A flight to Kepler-22b, a potentially habitable exoplanet that orbits a star similar to our Sun. Imagine what life could be like on this alien world that is 2.4 times larger than Earth.",
+            "departureDate": "2024-04-12",
+            "tripTime": "16 days",
+            "crew": "Astronaut O, Astronaut P",
+            "image": "https://example.com/flight8.jpg"
+        },
+        {
+            "id": 9,
+            "planetId": 9,
+            "name": "Alpha",
+            "description": "A flight to Alpha Centauri, the closest star system to our Sun. Explore the three stars that make up this system: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri.",
+            "departureDate": "2024-05-30",
+            "tripTime": "9 days",
+            "crew": "Astronaut Q, Astronaut R",
+            "image": "https://example.com/flight9.jpg"
+        },
+        {
+            "id": 10,
+            "planetId": 10,
+            "name": "Sirius",
+            "description": "A flight to Sirius, the brightest star in the night sky. Learn about the history and mythology of this star and its companion, Sirius B, a white dwarf that is one of the densest objects in the universe.",
+            "departureDate": "2024-06-10",
+            "tripTime": "18 days",
+            "crew": "Astronaut S, Astronaut T",
+            "image": "https://example.com/flight10.jpg"
+        },
+        {
+            "id": 11,
+            "planetId": 11,
+            "name": "Betelgeuse",
+            "description": "A flight to Betelgeuse, a red supergiant star that is one of the largest and most luminous stars known. Witness the awe-inspiring size and power of this star that could explode as a supernova anytime.",
+            "departureDate": "2024-07-15",
+            "tripTime": "6 days",
+            "crew": "Astronaut U, Astronaut V",
+            "image": "https://example.com/flight11.jpg"
+        },
+        {
+            "id": 12,
+            "planetId": 12,
+            "name": "Orion Nebula",
+            "description": "A flight to the Orion Nebula, a stellar nursery where new stars are born. See the colorful clouds of gas and dust that form various shapes and patterns in this cosmic wonderland.",
+            "departureDate": "2024-08-05",
+            "tripTime": "11 days",
+            "crew": "Astronaut W, Astronaut X",
+            "image": "https://example.com/flight12.jpg"
+        },
+        {
+            "id": 13,
+            "planetId": 13,
+            "name": "Andromeda Galaxy",
+            "description": "A flight to the Andromeda Galaxy, our nearest galactic neighbor. Gaze at the millions of stars that make up this spiral galaxy that is similar to our own Milky Way.",
+            "departureDate": "2024-09-20",
+            "tripTime": "7 days",
+            "crew": "Astronaut Y, Astronaut Z",
+            "image": "https://example.com/flight13.jpg"
+        },
+        {
+            "id": 14,
+            "planetId": 14,
+            "name": "Milky Way Center",
+            "description": "A flight to the center of our own galaxy, the Milky Way. Observe the supermassive black hole that lies at the heart of our galaxy and its surrounding stars and planets.",
+            "departureDate": "2024-10-10",
+            "tripTime": "13 days",
+            "crew": "Astronaut AA, Astronaut BB",
+            "image": "https://example.com/flight14.jpg"
+        },
+        {
+            "id": 15,
+            "planetId": 15,
+            "name": "Edge of Space",
+            "description": "A flight to the edge of space, where Earth's atmosphere meets outer space. Feel the weightlessness of zero gravity and see the curvature of our planet from above.",
+            "departureDate": "2024-11-25",
+            "tripTime": "7 days",
+            "crew": "Astronaut CC, Astronaut DD",
+            "image": "https://example.com/flight15.jpg"
+        }
+    ]
+    ,
+
+    "planets": [
+      {
+        "id": 1,
+        "name": "Mars",
+        "description": "The Red Planet",
+        "distanceFromEarth": "Approximately 225 million km",
+        "notableQuote": "Mars is there, waiting to be reached.",
+        "shortDescription": "Mars, the Red Planet, beckons with its rusty landscapes and mysteries of potential life.",
+        "longDescription": "Mars, often called the Red Planet, is the fourth planet from the Sun and is renowned for its distinctive reddish appearance. Located at an average distance of about 225 million kilometers from Earth, Mars has captured humanity's imagination for generations. Its surface features rugged terrains, including towering volcanoes like Olympus Mons and the vast canyon Valles Marineris. The planet's thin atmosphere is primarily composed of carbon dioxide, and although it's not hospitable to human life as we know it, there's growing interest in its potential for future colonization. Mars' polar ice caps and evidence of liquid water in its past have sparked fascination about the possibility of microbial life. Scientific missions like rovers and landers have provided invaluable data about its geology and climate, paving the way for future human exploration. The dream of sending humans to Mars is a testament to our insatiable curiosity and the innate drive to explore the unknown."
+      },
+      {
+        "id": 2,
+        "name": "Jupiter",
+        "description": "The Gas Giant",
+        "distanceFromEarth": "Approximately 628 million km",
+        "notableQuote": "Jupiter is the king of planets, adorned with a crown of majestic storms.",
+        "shortDescription": "Jupiter, the Gas Giant, boasts stunning bands of clouds and a tempestuous atmosphere.",
+        "longDescription": "Jupiter, the fifth planet from the Sun, is a majestic gas giant known for its colossal size and awe-inspiring storms. It sits at a distance of approximately 628 million kilometers from Earth. Jupiter's most iconic feature is its intricate cloud bands, created by powerful jet streams and composed mainly of hydrogen and helium. The planet's most famous storm, the Great Red Spot, is a massive hurricane-like storm that has raged for centuries. Jupiter also has a diverse family of moons, including the four Galilean moons—Io, Europa, Ganymede, and Callisto—each possessing its own unique characteristics. The Galilean moons have been the subject of intense scientific study due to the potential for subsurface oceans and the search for extraterrestrial life. Jupiter's immense gravitational pull plays a vital role in shaping the architecture of our solar system, its gravity influencing the orbits of other planets and asteroids. This gas giant serves as a reminder of the immense variety and beauty that the cosmos holds."
+      },
+      {
+        "id": 3,
+        "name": "Earth",
+        "description": "Our Home Planet",
+        "distanceFromEarth": "0 km (we're here!)",
+        "notableQuote": "The Earth does not belong to us. We belong to the Earth.",
+        "shortDescription": "Earth, our home, is a haven of life and beauty in the cosmos.",
+        "longDescription": "Earth, the third planet from the Sun, is the jewel of our solar system and the only known planet to support life. Located at a distance of zero kilometers from ourselves, it's home to diverse ecosystems, breathtaking landscapes, and the intricate web of life. Earth's atmosphere consists of oxygen, nitrogen, and traces of other gases that sustain life as we know it. Its varied climates, from icy polar regions to scorching deserts, showcase the planet's diversity. The blue oceans that cover much of Earth's surface not only regulate its temperature but also host a vast array of marine life. Our planet's magnetic field shields us from harmful solar radiation, and its history is recorded in the layers of rock that form its crust. Earth's unique features, such as its liquid water and thriving biosphere, make it a precious and fragile oasis in the vast expanse of space. Our responsibility to protect and preserve this remarkable planet is a testament to our deep connection to the Earth."
+      },
+      {
+        "id": 4,
+        "name": "Venus",
+        "description": "The Morning Star",
+        "distanceFromEarth": "Approximately 41 million km",
+        "notableQuote": "Venus is an enigmatic beauty, shrouded in mystery.",
+        "shortDescription": "Venus, the Morning Star, holds the secrets of a scorching and enigmatic world.",
+        "longDescription": "Venus, the second planet from the Sun, is a captivating yet enigmatic world that orbits at a distance of approximately 41 million kilometers from Earth. Often referred to as the Morning Star or Evening Star due to its bright appearance in the sky, Venus showcases a dramatic and hostile environment. Its thick atmosphere, composed mainly of carbon dioxide, traps heat in a runaway greenhouse effect, making it one of the hottest planets in our solar system. Venus' surface is characterized by vast volcanic plains and highland regions, shrouded in perpetual cloud cover. The planet's harsh conditions have led to surface temperatures that can melt lead and pressures akin to those found deep in Earth's oceans. Despite its inhospitable nature, Venus offers insights into the potential consequences of unchecked climate change and the importance of understanding planetary atmospheres. Venus remains a mysterious and cautionary tale, reminding us of the delicate balance that allows our own planet to thrive."
+      },
+      {
+        "id": 5,
+        "name": "Mercury",
+        "description": "The Swift Planet",
+        "distanceFromEarth": "Approximately 77 million km",
+        "notableQuote": "Mercury races around the Sun, a swift messenger of the cosmos.",
+        "shortDescription": "Mercury, the Swift Planet, is a scorching world with a history as ancient as time.",
+        "longDescription": "Mercury, the closest planet to the Sun, races around its orbit at a distance of approximately 77 million kilometers from Earth. Named after the swift-footed messenger of the Roman gods, Mercury's surface experiences extreme temperature variations due to its lack of a substantial atmosphere to retain heat. During its daytime, temperatures can soar to around 430 degrees Celsius (800 degrees Fahrenheit), while nighttime temperatures plummet to -180 degrees Celsius (-290 degrees Fahrenheit). The planet's surface is marked by impact craters, evidence of its tumultuous history shaped by collisions with cosmic debris. Despite its proximity to the Sun, certain craters near Mercury's poles remain in permanent shadow, offering the possibility of frozen water ice—a testament to the surprising complexity of a seemingly barren world. Mercury's ancient surface, scarred by eons of meteoritic bombardment, holds clues to the formation and evolution of our solar system."
+      },
+      {
+        "id": 6,
+        "name": "Saturn",
+        "description": "The Ringed Wonder",
+        "distanceFromEarth": "Approximately 1.4 billion km",
+        "notableQuote": "Saturn's rings are a celestial masterpiece, an orchestra of ice and rock.",
+        "shortDescription": "Saturn, the Ringed Wonder, boasts an enthralling system of icy rings and captivating moons.",
+        "longDescription": "Saturn, the sixth planet from the Sun, is a captivating gas giant located approximately 1.4 billion kilometers from Earth. Renowned for its stunning system of rings, composed primarily of ice particles and rocky debris, Saturn stands as a testament to the elegance of nature's architecture. The planet's rings span vast distances and are made up of numerous intricate ringlets. Saturn's atmosphere is rich in hydrogen and helium, much like Jupiter's, and features distinctive cloud bands and a hexagonal storm at its north pole. The planet's many moons, including the remarkable Titan and Enceladus, provide insights into the diversity of planetary environments. Titan, Saturn's largest moon, is shrouded in a thick atmosphere and features rivers, lakes, and dunes of icy materials. Enceladus, on the other hand, possesses geysers that erupt from its icy surface, suggesting the presence of a subsurface ocean. Saturn's exquisite rings and enigmatic moons continue to inspire our exploration and curiosity, reminding us of the boundless wonders that our solar system holds."
+      },
+      {
+        "id": 7,
+        "name": "Uranus",
+        "description": "The Sideways Planet",
+        "distanceFromEarth": "Approximately 2.9 billion km",
+        "notableQuote": "Uranus, the peculiar sideways planet, dances to its own cosmic rhythm.",
+        "shortDescription": "Uranus, the Sideways Planet, spins on its side in a dance of cosmic eccentricity.",
+        "longDescription": "Uranus, the seventh planet from the Sun, is a peculiar world located approximately 2.9 billion kilometers from Earth. Its most striking feature is its axial tilt, causing it to rotate on its side—unique among the planets in our solar system. This curious orientation likely resulted from a massive collision during its early history. Uranus' pale blue coloration comes from its predominantly hydrogen and helium atmosphere, with trace amounts of methane that give rise to its greenish hue. The planet's frigid atmosphere hosts some of the coldest temperatures in our solar system, reaching as low as -224 degrees Celsius (-371 degrees Fahrenheit). Uranus has a diverse family of moons and a faint ring system, discovered in 1977. The planet's magnetosphere is also tilted and off-center, extending far beyond its physical size. Uranus' eccentricities make it a symbol of the complex and sometimes bizarre nature of the cosmos."
+      },
+      {
+        "id": 8,
+        "name": "Neptune",
+        "description": "The Blue Giant",
+        "distanceFromEarth": "Approximately 4.4 billion km",
+        "notableQuote": "Neptune's deep blue hues hold the secrets of a distant and mysterious realm.",
+        "shortDescription": "Neptune, the Blue Giant, shrouded in mystery and distant beauty.",
+        "longDescription": "Neptune, the eighth and farthest known planet from the Sun, is a distant and captivating world. With its striking deep blue coloration and numerous atmospheric storms, Neptune's features remain largely hidden from human eyes due to its immense distance from Earth. Approximately 4.4 billion kilometers away, Neptune boasts a complex atmosphere of hydrogen, helium, and traces of methane that contribute to its unique appearance. The planet's weather is characterized by the Great Dark Spot, a storm system akin to Jupiter's Great Red Spot. Neptune's atmosphere is believed to consist of layers of clouds and icy particles, making it one of the coldest places in our solar system. This distant giant also hosts a mysterious moon, Triton, which features active geysers and a backward, or retrograde, orbit. Neptune's enigmatic allure continues to draw the attention of astronomers, inviting us to peer into the depths of a world that remains beyond our immediate reach."
+      }
+    ]
+  }
+  
