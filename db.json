@@ -1,155 +1,391 @@
 {  
+  
     "flights": [
-        {
-            "id": 1,
-            "planetId": 1,
-            "name": "Orion",
-            "description": "A flight to the Moon, the nearest celestial body to Earth. Experience the thrill of walking on the lunar surface and seeing the Earth from afar.",
-            "departureDate": "2023-09-01",
-            "tripTime": "5 days",
-            "crew": "Astronaut A, Astronaut B",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Orion_Artemis_I_Selfie_1.jpg/800px-Orion_Artemis_I_Selfie_1.jpg"
+      {
+        "id": 1,
+        "name": "SpaceShipTwo",
+        "company": "Virgin Galactic",
+        "description": "A rocketplane that can fly to the edge of space, offering a few minutes of weightlessness and a view of the Earth's curvature.",
+        "price": "$100,000",
+        "image": "spaceshiptwo.jpg",
+        "crew": {
+          "pilot": "Alice Johnson",
+          "co-pilot": "Michael Smith"
         },
-        {
-            "id": 2,
-            "planetId": 2,
-            "name": "Aurora",
-            "description": "A flight to the Northern Lights, the spectacular natural phenomenon that occurs in the high-latitude regions of Earth. Witness the dazzling display of colors and shapes in the night sky.",
-            "departureDate": "2023-10-15",
-            "tripTime": "10 days",
-            "crew": "Astronaut C, Astronaut D",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aurora_x-plane_3.jpg"
+        "experience": "Enjoy breathtaking views of Earth from the edge of space.",
+        "safety": "Advanced safety features ensure a secure journey.",
+        "planets": "Mercury",
+        "category": "business"
+      },
+      {
+        "id": 2,
+        "name": "New Shepard",
+        "company": "Blue Origin",
+        "description": "A reusable rocket that can launch a capsule to an altitude of about 100 kilometers, where passengers can experience weightlessness and see the Earth from space.",
+        "price": "$20,000",
+        "image": "newshepard.jpg",
+        "crew": {
+          "pilot": "David Johnson",
+          "co-pilot": "Emily Smith"
         },
-        {
-            "id": 3,
-            "planetId": 3,
-            "name": "Galileo",
-            "description": "A flight to Jupiter, the largest planet in the solar system. Explore the giant gas world and its many moons, such as Io, Europa, Ganymede, and Callisto.",
-            "departureDate": "2023-11-05",
-            "tripTime": "7 days",
-            "crew": "Astronaut E, Astronaut F",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1024px-Artwork_Galileo-Io-Jupiter.JPG"
+        "experience": "Feel the thrill of spaceflight and witness Earth's curvature.",
+        "safety": "Top-notch safety measures ensure passenger well-being.",
+        "planets": "Venus",
+        "category": "economics"
+      },
+      {
+        "id": 3,
+        "name": "Crew Dragon",
+        "company": "SpaceX",
+        "description": "A spacecraft that can carry up to seven people to low Earth orbit and beyond. It can dock with the International Space Station or fly on its own missions.",
+        "price": "$9,000",
+        "image": "crewdragon.jpg",
+        "crew": {
+          "pilot": "Alex Chen",
+          "co-pilot": "Emily Johnson"
         },
-        {
-            "id": 4,
-            "planetId": 4,
-            "name": "Cassini",
-            "description": "A flight to Saturn, the ringed planet that is second only to Jupiter in size and mass. Marvel at the beauty and complexity of its rings and its diverse satellites, such as Titan, Enceladus, Mimas, and Rhea.",
-            "departureDate": "2023-12-20",
-            "tripTime": "14 days",
-            "crew": "Astronaut G, Astronaut H",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Progress_M-06M.jpg/1280px-Progress_M-06M.jpg"
+        "experience": "Embark on a journey as astronauts and live the life in space.",
+        "safety": "Cutting-edge safety systems ensure a secure space adventure.",
+        "planets": "Mars",
+        "category": "others"
+      },
+      {
+        "id": 4,
+        "name": "Starship",
+        "company": "SpaceX",
+        "description": "A massive rocket that can carry up to 100 people to the moon, Mars, or other destinations in the solar system. It is still under development, but aims to be fully reusable and affordable for large-scale colonization.",
+        "price": "$100,0000",
+        "image": "starship.jpg",
+        "crew": {
+          "pilot": "John Smith",
+          "co-pilot": "Linda Johnson"
         },
-        {
-            "id": 5,
-            "planetId": 5,
-            "name": "Voyager",
-            "description": "A flight to Uranus, the ice giant that lies on its side. Discover the secrets of its tilted axis, its extreme seasons, and its 27 moons, such as Miranda, Ariel, Umbriel, Titania, and Oberon.",
-            "departureDate": "2024-01-10",
-            "tripTime": "6 days",
-            "crew": "Astronaut I, Astronaut J",
-            "image": "https://www.spacex.com/human-spaceflight/assets/images/starship.webp"
+        "experience": "Embark on interplanetary journeys with state-of-the-art technology.",
+        "safety": "Safety protocols ensure a smooth journey through space.",
+        "planets": "Jupiter",
+        "category": "business"
+      },
+      {
+        "id": 5,
+        "name": "Chandrayaan-3",
+        "company": "ISRO",
+        "description": "An Indian lunar lander and rover that successfully landed near the south pole of the moon in 2023. It was the first spacecraft to do so, and made India the fourth country to soft-land on the moon.",
+        "price": "$120,000",
+        "image": null,
+        "crew": {
+          "pilot": "Rajesh Patel",
+          "co-pilot": "Sneha Johnson"
         },
-        {
-            "id": 6,
-            "planetId": 6,
-            "name": "Neptune",
-            "description": "A flight to Neptune, the farthest planet from the Sun. Experience the cold and windy conditions of this blue world and its 14 moons, such as Triton, Nereid, Proteus, and Larissa.",
-            "departureDate": "2024-02-18",
-            "tripTime": "12 days",
-            "crew": "Astronaut K, Astronaut L",
-            "image": ""
+        "experience": "Explore the moon's surface with cutting-edge lunar technology.",
+        "safety": "Precise engineering ensures a successful lunar landing.",
+        "planets": "Earth's Moon",
+        "category": "economics"
+      },
+      {
+        "id": 6,
+        "name": "Orion",
+        "company": "NASA",
+        "description": "A spacecraft that can carry up to four astronauts to deep space destinations, such as the moon, asteroids, or Mars. It is designed to be the most advanced human exploration vehicle ever built.",
+        "price":"$103,000",
+        "image": "orion.jpg",
+        "crew": {
+          "pilot": "Karen Anderson",
+          "co-pilot": "Chris Johnson"
         },
-        {
-            "id": 7,
-            "planetId": 7,
-            "name": "Pluto",
-            "description": "A flight to Pluto, the dwarf planet that was once considered the ninth planet. Visit the icy and rocky surface of this distant world and its five moons, such as Charon, Nix, Hydra, Kerberos, and Styx.",
-            "departureDate": "2024-03-25",
-            "tripTime": "8 days",
-            "crew": "Astronaut M, Astronaut N",
-            "image": "https://example.com/flight7.jpg"
+        "experience": "Embark on missions beyond Earth and explore the mysteries of the cosmos.",
+        "safety": "NASA's stringent safety standards ensure crew protection.",
+        "planets": "Saturn",
+        "category": "business"
+      },
+      {
+        "id": 7,
+        "name": "Soyuz",
+        "company": "Roscosmos",
+        "description": "A spacecraft that can carry up to three people to low Earth orbit and the International Space Station. It is the oldest and most reliable human spaceflight system in operation.",
+        "price": "$172,000",
+        "image": "soyuz.jpg",
+        "crew": {
+          "pilot": "Ivan Petrov",
+          "co-pilot": "Emily Johnson"
         },
-        {
-            "id": 8,
-            "planetId": 8,
-            "name": "Kepler",
-            "description": "A flight to Kepler-22b, a potentially habitable exoplanet that orbits a star similar to our Sun. Imagine what life could be like on this alien world that is 2.4 times larger than Earth.",
-            "departureDate": "2024-04-12",
-            "tripTime": "16 days",
-            "crew": "Astronaut O, Astronaut P",
-            "image": "https://example.com/flight8.jpg"
+        "experience": "Join the legacy of space exploration with the renowned Soyuz spacecraft.",
+        "safety": "Decades of successful missions attest to Soyuz's safety record.",
+        "planets": "Uranus",
+        "category": "others"
+      },
+      {
+        "id": 8,
+        "name": "Dream Chaser",
+        "company": "Sierra Nevada Corporation",
+        "description": "A reusable spaceplane that can carry up to seven people or cargo to low Earth orbit and back. It can land on any runway that can accommodate a commercial airliner.",
+        "price": "$152,000",
+        "image": "dreamchaser.jpg",
+        "crew": {
+          "pilot": "Samantha Martinez",
+          "co-pilot": "Mark Johnson"
         },
-        {
-            "id": 9,
-            "planetId": 9,
-            "name": "Alpha",
-            "description": "A flight to Alpha Centauri, the closest star system to our Sun. Explore the three stars that make up this system: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri.",
-            "departureDate": "2024-05-30",
-            "tripTime": "9 days",
-            "crew": "Astronaut Q, Astronaut R",
-            "image": "https://example.com/flight9.jpg"
+        "experience": "Fly to space and back aboard a versatile and sleek spaceplane.",
+        "safety": "Dream Chaser's state-of-the-art design prioritizes passenger safety.",
+        "planets": "Venus",
+        "category": "business"
+      },
+      {
+        "id": 9,
+        "name": "Shenzhou",
+        "company": "CNSA",
+        "description": "A spacecraft that can carry up to three people to low Earth orbit and the Chinese space station. It is based on the Russian Soyuz design, but with some modifications and improvements.",
+        "price":"$128,000",
+        "image": null,
+        "crew": {
+          "pilot": "Li Wei",
+          "co-pilot": "Zhang Yu"
         },
-        {
-            "id": 10,
-            "planetId": 10,
-            "name": "Sirius",
-            "description": "A flight to Sirius, the brightest star in the night sky. Learn about the history and mythology of this star and its companion, Sirius B, a white dwarf that is one of the densest objects in the universe.",
-            "departureDate": "2024-06-10",
-            "tripTime": "18 days",
-            "crew": "Astronaut S, Astronaut T",
-            "image": "https://example.com/flight10.jpg"
+        "experience": "Join China's space missions and contribute to space exploration.",
+        "safety": "CNSA ensures the highest safety standards for all Shenzhou missions.",
+        "planets": "Mars",
+        "category": "economics"
+      },
+      {
+        "id": 10,
+        "name": "Aurora",
+        "company": "Space Adventures",
+        "description": "A spacecraft that can carry two people to a circumlunar flight, where they can see the far side of the moon and the Earth from a distance. It is a modified version of the Soyuz spacecraft, with a special module attached.",
+        "price": "$145,000",
+        "image": null,
+        "crew": {
+          "pilot": "Michael Smith",
+          "co-pilot": "Linda Johnson"
         },
-        {
-            "id": 11,
-            "planetId": 11,
-            "name": "Betelgeuse",
-            "description": "A flight to Betelgeuse, a red supergiant star that is one of the largest and most luminous stars known. Witness the awe-inspiring size and power of this star that could explode as a supernova anytime.",
-            "departureDate": "2024-07-15",
-            "tripTime": "6 days",
-            "crew": "Astronaut U, Astronaut V",
-            "image": "https://example.com/flight11.jpg"
+        "experience": "Witness the moon's far side and Earth from a unique perspective.",
+        "safety": "Space Adventures prioritizes safety for the extraordinary Aurora mission.",
+        "planets": "Earth's Moon",
+        "category": "business"
+      },
+      {
+        "id": 11,
+        "name": "Artemis",
+        "company": "NASA",
+        "description": "A program that aims to land the first woman and the next man on the moon by 2024, and establish a sustainable human presence there by 2030. It involves a series of missions using the Orion spacecraft, the Space Launch System rocket, and the Gateway lunar outpost.",
+        "price": "$113,000",
+        "image": "artemis.jpg",
+        "crew": {
+          "pilot": "Jessica Anderson",
+          "co-pilot": "Mark Johnson"
         },
-        {
-            "id": 12,
-            "planetId": 12,
-            "name": "Orion Nebula",
-            "description": "A flight to the Orion Nebula, a stellar nursery where new stars are born. See the colorful clouds of gas and dust that form various shapes and patterns in this cosmic wonderland.",
-            "departureDate": "2024-08-05",
-            "tripTime": "11 days",
-            "crew": "Astronaut W, Astronaut X",
-            "image": "https://example.com/flight12.jpg"
+        "experience": "Join NASA's historic Artemis missions and set foot on the moon.",
+        "safety": "NASA's expertise ensures safe lunar exploration for all crew members.",
+        "planets": "Earth's Moon",
+        "category": "economics"
+      },
+      {
+        "id": 12,
+        "name": "VSS Imagine",
+        "company": "Virgin Galactic",
+        "description": "The first of a new generation of SpaceShipTwo vehicles that feature a mirror-like exterior that reflects the surrounding environment. It is designed to enhance the customer experience and reduce maintenance costs.",
+        "price": "$107,000",
+        "image": null,
+        "crew": {
+          "pilot": "John Smith",
+          "co-pilot": "Jennifer Lee"
         },
-        {
-            "id": 13,
-            "planetId": 13,
-            "name": "Andromeda Galaxy",
-            "description": "A flight to the Andromeda Galaxy, our nearest galactic neighbor. Gaze at the millions of stars that make up this spiral galaxy that is similar to our own Milky Way.",
-            "departureDate": "2024-09-20",
-            "tripTime": "7 days",
-            "crew": "Astronaut Y, Astronaut Z",
-            "image": "https://example.com/flight13.jpg"
+        "experience": "Embark on a transformative space journey with Virgin Galactic.",
+        "safety": "Virgin Galactic's commitment to safety ensures a worry-free experience.",
+        "planets": "Neptune",
+        "category": "others"
+      },
+      {
+        "id": 13,
+        "name": "Starliner",
+        "company": "Boeing",
+        "description": "A spacecraft that can carry up to seven people or cargo to low Earth orbit and the International Space Station. It is part of NASA's Commercial Crew Program, and can be reused up to ten times.",
+        "price": "$100,250",
+        "image": null,
+        "crew": {
+          "pilot": "Robert Johnson",
+          "co-pilot": "Emily Smith"
         },
-        {
-            "id": 14,
-            "planetId": 14,
-            "name": "Milky Way Center",
-            "description": "A flight to the center of our own galaxy, the Milky Way. Observe the supermassive black hole that lies at the heart of our galaxy and its surrounding stars and planets.",
-            "departureDate": "2024-10-10",
-            "tripTime": "13 days",
-            "crew": "Astronaut AA, Astronaut BB",
-            "image": "https://example.com/flight14.jpg"
+        "experience": "Travel to the International Space Station with Boeing's reliable Starliner.",
+        "safety": "Boeing's legacy in aviation ensures a secure journey to space.",
+        "planets": "Mars",
+        "category": "others"
+      },
+      {
+        "id": 14,
+        "name": "Lunar Gateway",
+        "company": null,
+        "description": "A planned outpost that will orbit the moon and serve as a staging point for lunar exploration and deep space missions. It will be built by a consortium of international partners, including NASA, ESA, JAXA, CSA, and Roscosmos.",
+        "price": "$100,852",
+        "image": null,
+        "crew": {
+          "pilot": "Linda Johnson",
+          "co-pilot": "James Lee"
         },
-        {
-            "id": 15,
-            "planetId": 15,
-            "name": "Edge of Space",
-            "description": "A flight to the edge of space, where Earth's atmosphere meets outer space. Feel the weightlessness of zero gravity and see the curvature of our planet from above.",
-            "departureDate": "2024-11-25",
-            "tripTime": "7 days",
-            "crew": "Astronaut CC, Astronaut DD",
-            "image": "https://example.com/flight15.jpg"
-        }
+        "experience": "Participate in preparing for future lunar and deep space endeavors.",
+        "safety": "International collaboration ensures the safety of the Lunar Gateway.",
+        "planets": "Earth's Moon",
+        "category": "economics"
+      },
+      {
+        "id": 15,
+        "name": "Tiangong",
+        "company": "CNSA",
+        "description": "A modular space station that China is building in low Earth orbit. It will consist of three modules: a core module and two laboratory modules. It will be able to host up to six astronauts for long-term missions.",
+        "price": "$190,000",
+        "image": null,
+        "crew": {
+          "pilot": "Chen Wei",
+          "co-pilot": "Liu Yang"
+        },
+        "experience": "Contribute to China's space station missions and scientific research.",
+        "safety": "CNSA prioritizes astronaut safety for the long-term missions.",
+        "planets": "Jupiter",
+        "category": "others"
+      },
+      {
+        "id": 16,
+        "name": "SpaceShip III",
+        "company": "Virgin Galactic",
+        "description": "A new class of space vehicles that will be able to fly more frequently and carry more passengers than SpaceShipTwo. They will have improved performance, safety, and comfort features.",
+        "price":"$100,450",
+        "image": null,
+        "crew": {
+          "pilot": "Michael Johnson",
+          "co-pilot": "Sarah Anderson"
+        },
+        "experience": "Enjoy enhanced space travel with the innovative SpaceShip III.",
+        "safety": "Virgin Galactic's cutting-edge technology ensures passenger safety.",
+        "planets": "Mars",
+        "category": "business"
+      },
+      {
+        "id": 17,
+        "name": "New Glenn",
+        "company": "Blue Origin",
+        "description": "A heavy-lift reusable rocket that can launch payloads and people to low Earth orbit and beyond. It will have two stages, with the first stage being able to land vertically on a ship at sea.",
+        "price": "$2000,000",
+        "image": null,
+        "crew": {
+          "pilot": "David Smith",
+          "co-pilot": "Emily Johnson"
+        },
+        "experience": "Ride the powerful New Glenn rocket to explore the cosmos.",
+        "safety": "Blue Origin's commitment to safety ensures reliable space journeys.",
+        "planets": "Uranus",
+        "category": "economics"
+      },
+      {
+        "id": 18,
+        "name": "Lunar Starship",
+        "company": "SpaceX",
+        "description": "A variant of Starship that is designed to land on the moon and return to Earth. It will have a different shape and configuration than the Starship that will go to Mars, and will not have any heat shield or flaps.",
+        "price": "$100,690",
+        "image": null,
+        "crew": {
+          "pilot": "John Johnson",
+          "co-pilot": "Sophia Lee"
+        },
+        "experience": "Explore lunar landscapes with SpaceX's innovative Lunar Starship.",
+        "safety": "SpaceX's pioneering technology ensures a successful moon landing.",
+        "planets": "Earth's Moon",
+        "category": "business"
+      },
+      {
+        "id": 19,
+        "name": "Hera",
+        "company": "ESA",
+        "description": "A spacecraft that will fly to the Didymos asteroid system and study the effects of a previous impact by another spacecraft called DART. It will be the first mission to test asteroid deflection techniques for planetary defense.",
+        "price": "$100,750",
+        "image": null,
+        "crew": {
+          "pilot": "Maria Johnson",
+          "co-pilot": "Thomas Smith"
+        },
+        "experience": "Contribute to planetary defense by studying asteroids up close.",
+        "safety": "ESA's expertise ensures a safe and impactful Hera mission.",
+        "planets": "Mars",
+        "category": "economics"
+      },
+      {
+        "id": 20,
+        "name": "Space Rider",
+        "company": "ESA",
+        "description": "A reusable spaceplane that can carry payloads and experiments to low Earth orbit and back. It will be launched on a Vega-C rocket and will be able to stay in orbit for up to two months.",
+        "price": "$114,000",
+        "image": null,
+        "crew": {
+          "pilot": "Oliver Smith",
+          "co-pilot": "Sophia Anderson"
+        },
+        "experience": "Launch experiments into space with ESA's versatile Space Rider.",
+        "safety": "ESA's rigorous safety protocols ensure successful space missions.",
+        "planets": "Venus",
+        "category": "others"
+      },
+      {
+        "id": 21,
+        "name": "Space Perspective",
+        "company": null,
+        "description": "A company that plans to offer balloon flights to the edge of space, where passengers can enjoy a spectacular view of the Earth and the stars. The balloon will carry a pressurized capsule that can accommodate up to eight people and a pilot.",
+        "price": "$170,809",
+        "image": null,
+        "crew": {
+          "pilot": "Jessica Johnson",
+          "co-pilot": "James Smith"
+        },
+        "experience": "Ascend to the edge of space in comfort with Space Perspective.",
+        "safety": "Stringent safety measures ensure a serene journey to the stars.",
+        "planets": "Mars",
+        "category": "economics"
+      },
+      {
+        "id": 22,
+        "name": "Gaganyaan",
+        "company": "ISRO",
+        "description": "A spacecraft that will carry up to three Indian astronauts to low Earth orbit for a week-long mission. It will be the first human spaceflight program of India, and is expected to launch in 2023.",
+        "price": "$520,000",
+        "image": null,
+        "crew": {
+          "pilot": "Rajesh Patel",
+          "co-pilot": "Sneha Johnson"
+        },
+        "experience": "Witness India's inaugural human spaceflight with the Gaganyaan mission.",
+        "safety": "ISRO ensures a safe journey for its historic Gaganyaan mission.",
+        "planets": "Saturn",
+        "category": "business"
+      },
+      {
+        "id": 23,
+        "name": "Federation",
+        "company": "Roscosmos",
+        "description": "A spacecraft that will replace the Soyuz as the main vehicle for transporting people and cargo to low Earth orbit and the International Space Station. It will be able to carry up to four people and have a longer service life.",
+        "price": "$1,002,580",
+        "image": null,
+        "crew": {
+          "pilot": "Ivan Petrov",
+          "co-pilot": "Linda Johnson"
+        },
+        "experience": "Experience space travel in Russia's advanced Federation spacecraft.",
+        "safety": "Roscosmos prioritizes safety in its next-generation Federation missions.",
+        "planets": "Venus",
+        "category": "others"
+      },
+      {
+        "id": 24,
+        "name": "Lynx",
+        "company": "XCOR Aerospace",
+        "description": "A suborbital spaceplane that can fly to an altitude of about 100 kilometers, where passengers can experience weightlessness and see the Earth from space. It can carry one pilot and one passenger, and can fly up to four times a day.",
+        "price": "$1741,852",
+        "image": null,
+        "crew": {
+          "pilot": "Oliver Johnson",
+          "co-pilot": "Sophia Smith"
+        },
+        "experience": "Achieve suborbital spaceflight with XCOR Aerospace's Lynx.",
+        "safety": "Lynx's reliable design ensures a safe and thrilling space journey.",
+        "planets": "Earth's Moon",
+        "category": "business"
+      }
+  
     ]
     ,
 
@@ -161,7 +397,8 @@
         "distanceFromEarth": "Approximately 225 million km",
         "notableQuote": "Mars is there, waiting to be reached.",
         "shortDescription": "Mars, the Red Planet, beckons with its rusty landscapes and mysteries of potential life.",
-        "longDescription": "Mars, often called the Red Planet, is the fourth planet from the Sun and is renowned for its distinctive reddish appearance. Located at an average distance of about 225 million kilometers from Earth, Mars has captured humanity's imagination for generations. Its surface features rugged terrains, including towering volcanoes like Olympus Mons and the vast canyon Valles Marineris. The planet's thin atmosphere is primarily composed of carbon dioxide, and although it's not hospitable to human life as we know it, there's growing interest in its potential for future colonization. Mars' polar ice caps and evidence of liquid water in its past have sparked fascination about the possibility of microbial life. Scientific missions like rovers and landers have provided invaluable data about its geology and climate, paving the way for future human exploration. The dream of sending humans to Mars is a testament to our insatiable curiosity and the innate drive to explore the unknown."
+        "longDescription": "Mars, often called the Red Planet, is the fourth planet from the Sun and is renowned for its distinctive reddish appearance. Located at an average distance of about 225 million kilometers from Earth, Mars has captured humanity's imagination for generations. Its surface features rugged terrains, including towering volcanoes like Olympus Mons and the vast canyon Valles Marineris. The planet's thin atmosphere is primarily composed of carbon dioxide, and although it's not hospitable to human life as we know it, there's growing interest in its potential for future colonization. Mars' polar ice caps and evidence of liquid water in its past have sparked fascination about the possibility of microbial life. Scientific missions like rovers and landers have provided invaluable data about its geology and climate, paving the way for future human exploration. The dream of sending humans to Mars is a testament to our insatiable curiosity and the innate drive to explore the unknown.",
+        "day":16
       },
       {
         "id": 2,
@@ -170,16 +407,8 @@
         "distanceFromEarth": "Approximately 628 million km",
         "notableQuote": "Jupiter is the king of planets, adorned with a crown of majestic storms.",
         "shortDescription": "Jupiter, the Gas Giant, boasts stunning bands of clouds and a tempestuous atmosphere.",
-        "longDescription": "Jupiter, the fifth planet from the Sun, is a majestic gas giant known for its colossal size and awe-inspiring storms. It sits at a distance of approximately 628 million kilometers from Earth. Jupiter's most iconic feature is its intricate cloud bands, created by powerful jet streams and composed mainly of hydrogen and helium. The planet's most famous storm, the Great Red Spot, is a massive hurricane-like storm that has raged for centuries. Jupiter also has a diverse family of moons, including the four Galilean moons—Io, Europa, Ganymede, and Callisto—each possessing its own unique characteristics. The Galilean moons have been the subject of intense scientific study due to the potential for subsurface oceans and the search for extraterrestrial life. Jupiter's immense gravitational pull plays a vital role in shaping the architecture of our solar system, its gravity influencing the orbits of other planets and asteroids. This gas giant serves as a reminder of the immense variety and beauty that the cosmos holds."
-      },
-      {
-        "id": 3,
-        "name": "Earth",
-        "description": "Our Home Planet",
-        "distanceFromEarth": "0 km (we're here!)",
-        "notableQuote": "The Earth does not belong to us. We belong to the Earth.",
-        "shortDescription": "Earth, our home, is a haven of life and beauty in the cosmos.",
-        "longDescription": "Earth, the third planet from the Sun, is the jewel of our solar system and the only known planet to support life. Located at a distance of zero kilometers from ourselves, it's home to diverse ecosystems, breathtaking landscapes, and the intricate web of life. Earth's atmosphere consists of oxygen, nitrogen, and traces of other gases that sustain life as we know it. Its varied climates, from icy polar regions to scorching deserts, showcase the planet's diversity. The blue oceans that cover much of Earth's surface not only regulate its temperature but also host a vast array of marine life. Our planet's magnetic field shields us from harmful solar radiation, and its history is recorded in the layers of rock that form its crust. Earth's unique features, such as its liquid water and thriving biosphere, make it a precious and fragile oasis in the vast expanse of space. Our responsibility to protect and preserve this remarkable planet is a testament to our deep connection to the Earth."
+        "longDescription": "Jupiter, the fifth planet from the Sun, is a majestic gas giant known for its colossal size and awe-inspiring storms. It sits at a distance of approximately 628 million kilometers from Earth. Jupiter's most iconic feature is its intricate cloud bands, created by powerful jet streams and composed mainly of hydrogen and helium. The planet's most famous storm, the Great Red Spot, is a massive hurricane-like storm that has raged for centuries. Jupiter also has a diverse family of moons, including the four Galilean moons—Io, Europa, Ganymede, and Callisto—each possessing its own unique characteristics. The Galilean moons have been the subject of intense scientific study due to the potential for subsurface oceans and the search for extraterrestrial life. Jupiter's immense gravitational pull plays a vital role in shaping the architecture of our solar system, its gravity influencing the orbits of other planets and asteroids. This gas giant serves as a reminder of the immense variety and beauty that the cosmos holds.",
+        "day":10
       },
       {
         "id": 4,
@@ -188,7 +417,8 @@
         "distanceFromEarth": "Approximately 41 million km",
         "notableQuote": "Venus is an enigmatic beauty, shrouded in mystery.",
         "shortDescription": "Venus, the Morning Star, holds the secrets of a scorching and enigmatic world.",
-        "longDescription": "Venus, the second planet from the Sun, is a captivating yet enigmatic world that orbits at a distance of approximately 41 million kilometers from Earth. Often referred to as the Morning Star or Evening Star due to its bright appearance in the sky, Venus showcases a dramatic and hostile environment. Its thick atmosphere, composed mainly of carbon dioxide, traps heat in a runaway greenhouse effect, making it one of the hottest planets in our solar system. Venus' surface is characterized by vast volcanic plains and highland regions, shrouded in perpetual cloud cover. The planet's harsh conditions have led to surface temperatures that can melt lead and pressures akin to those found deep in Earth's oceans. Despite its inhospitable nature, Venus offers insights into the potential consequences of unchecked climate change and the importance of understanding planetary atmospheres. Venus remains a mysterious and cautionary tale, reminding us of the delicate balance that allows our own planet to thrive."
+        "longDescription": "Venus, the second planet from the Sun, is a captivating yet enigmatic world that orbits at a distance of approximately 41 million kilometers from Earth. Often referred to as the Morning Star or Evening Star due to its bright appearance in the sky, Venus showcases a dramatic and hostile environment. Its thick atmosphere, composed mainly of carbon dioxide, traps heat in a runaway greenhouse effect, making it one of the hottest planets in our solar system. Venus' surface is characterized by vast volcanic plains and highland regions, shrouded in perpetual cloud cover. The planet's harsh conditions have led to surface temperatures that can melt lead and pressures akin to those found deep in Earth's oceans. Despite its inhospitable nature, Venus offers insights into the potential consequences of unchecked climate change and the importance of understanding planetary atmospheres. Venus remains a mysterious and cautionary tale, reminding us of the delicate balance that allows our own planet to thrive.",
+        "day":8
       },
       {
         "id": 5,
@@ -197,7 +427,8 @@
         "distanceFromEarth": "Approximately 77 million km",
         "notableQuote": "Mercury races around the Sun, a swift messenger of the cosmos.",
         "shortDescription": "Mercury, the Swift Planet, is a scorching world with a history as ancient as time.",
-        "longDescription": "Mercury, the closest planet to the Sun, races around its orbit at a distance of approximately 77 million kilometers from Earth. Named after the swift-footed messenger of the Roman gods, Mercury's surface experiences extreme temperature variations due to its lack of a substantial atmosphere to retain heat. During its daytime, temperatures can soar to around 430 degrees Celsius (800 degrees Fahrenheit), while nighttime temperatures plummet to -180 degrees Celsius (-290 degrees Fahrenheit). The planet's surface is marked by impact craters, evidence of its tumultuous history shaped by collisions with cosmic debris. Despite its proximity to the Sun, certain craters near Mercury's poles remain in permanent shadow, offering the possibility of frozen water ice—a testament to the surprising complexity of a seemingly barren world. Mercury's ancient surface, scarred by eons of meteoritic bombardment, holds clues to the formation and evolution of our solar system."
+        "longDescription": "Mercury, the closest planet to the Sun, races around its orbit at a distance of approximately 77 million kilometers from Earth. Named after the swift-footed messenger of the Roman gods, Mercury's surface experiences extreme temperature variations due to its lack of a substantial atmosphere to retain heat. During its daytime, temperatures can soar to around 430 degrees Celsius (800 degrees Fahrenheit), while nighttime temperatures plummet to -180 degrees Celsius (-290 degrees Fahrenheit). The planet's surface is marked by impact craters, evidence of its tumultuous history shaped by collisions with cosmic debris. Despite its proximity to the Sun, certain craters near Mercury's poles remain in permanent shadow, offering the possibility of frozen water ice—a testament to the surprising complexity of a seemingly barren world. Mercury's ancient surface, scarred by eons of meteoritic bombardment, holds clues to the formation and evolution of our solar system.",
+        "day":9
       },
       {
         "id": 6,
@@ -206,7 +437,8 @@
         "distanceFromEarth": "Approximately 1.4 billion km",
         "notableQuote": "Saturn's rings are a celestial masterpiece, an orchestra of ice and rock.",
         "shortDescription": "Saturn, the Ringed Wonder, boasts an enthralling system of icy rings and captivating moons.",
-        "longDescription": "Saturn, the sixth planet from the Sun, is a captivating gas giant located approximately 1.4 billion kilometers from Earth. Renowned for its stunning system of rings, composed primarily of ice particles and rocky debris, Saturn stands as a testament to the elegance of nature's architecture. The planet's rings span vast distances and are made up of numerous intricate ringlets. Saturn's atmosphere is rich in hydrogen and helium, much like Jupiter's, and features distinctive cloud bands and a hexagonal storm at its north pole. The planet's many moons, including the remarkable Titan and Enceladus, provide insights into the diversity of planetary environments. Titan, Saturn's largest moon, is shrouded in a thick atmosphere and features rivers, lakes, and dunes of icy materials. Enceladus, on the other hand, possesses geysers that erupt from its icy surface, suggesting the presence of a subsurface ocean. Saturn's exquisite rings and enigmatic moons continue to inspire our exploration and curiosity, reminding us of the boundless wonders that our solar system holds."
+        "longDescription": "Saturn, the sixth planet from the Sun, is a captivating gas giant located approximately 1.4 billion kilometers from Earth. Renowned for its stunning system of rings, composed primarily of ice particles and rocky debris, Saturn stands as a testament to the elegance of nature's architecture. The planet's rings span vast distances and are made up of numerous intricate ringlets. Saturn's atmosphere is rich in hydrogen and helium, much like Jupiter's, and features distinctive cloud bands and a hexagonal storm at its north pole. The planet's many moons, including the remarkable Titan and Enceladus, provide insights into the diversity of planetary environments. Titan, Saturn's largest moon, is shrouded in a thick atmosphere and features rivers, lakes, and dunes of icy materials. Enceladus, on the other hand, possesses geysers that erupt from its icy surface, suggesting the presence of a subsurface ocean. Saturn's exquisite rings and enigmatic moons continue to inspire our exploration and curiosity, reminding us of the boundless wonders that our solar system holds.",
+        "day":120
       },
       {
         "id": 7,
@@ -215,7 +447,8 @@
         "distanceFromEarth": "Approximately 2.9 billion km",
         "notableQuote": "Uranus, the peculiar sideways planet, dances to its own cosmic rhythm.",
         "shortDescription": "Uranus, the Sideways Planet, spins on its side in a dance of cosmic eccentricity.",
-        "longDescription": "Uranus, the seventh planet from the Sun, is a peculiar world located approximately 2.9 billion kilometers from Earth. Its most striking feature is its axial tilt, causing it to rotate on its side—unique among the planets in our solar system. This curious orientation likely resulted from a massive collision during its early history. Uranus' pale blue coloration comes from its predominantly hydrogen and helium atmosphere, with trace amounts of methane that give rise to its greenish hue. The planet's frigid atmosphere hosts some of the coldest temperatures in our solar system, reaching as low as -224 degrees Celsius (-371 degrees Fahrenheit). Uranus has a diverse family of moons and a faint ring system, discovered in 1977. The planet's magnetosphere is also tilted and off-center, extending far beyond its physical size. Uranus' eccentricities make it a symbol of the complex and sometimes bizarre nature of the cosmos."
+        "longDescription": "Uranus, the seventh planet from the Sun, is a peculiar world located approximately 2.9 billion kilometers from Earth. Its most striking feature is its axial tilt, causing it to rotate on its side—unique among the planets in our solar system. This curious orientation likely resulted from a massive collision during its early history. Uranus' pale blue coloration comes from its predominantly hydrogen and helium atmosphere, with trace amounts of methane that give rise to its greenish hue. The planet's frigid atmosphere hosts some of the coldest temperatures in our solar system, reaching as low as -224 degrees Celsius (-371 degrees Fahrenheit). Uranus has a diverse family of moons and a faint ring system, discovered in 1977. The planet's magnetosphere is also tilted and off-center, extending far beyond its physical size. Uranus' eccentricities make it a symbol of the complex and sometimes bizarre nature of the cosmos.",
+        "day":28
       },
       {
         "id": 8,
@@ -224,7 +457,8 @@
         "distanceFromEarth": "Approximately 4.4 billion km",
         "notableQuote": "Neptune's deep blue hues hold the secrets of a distant and mysterious realm.",
         "shortDescription": "Neptune, the Blue Giant, shrouded in mystery and distant beauty.",
-        "longDescription": "Neptune, the eighth and farthest known planet from the Sun, is a distant and captivating world. With its striking deep blue coloration and numerous atmospheric storms, Neptune's features remain largely hidden from human eyes due to its immense distance from Earth. Approximately 4.4 billion kilometers away, Neptune boasts a complex atmosphere of hydrogen, helium, and traces of methane that contribute to its unique appearance. The planet's weather is characterized by the Great Dark Spot, a storm system akin to Jupiter's Great Red Spot. Neptune's atmosphere is believed to consist of layers of clouds and icy particles, making it one of the coldest places in our solar system. This distant giant also hosts a mysterious moon, Triton, which features active geysers and a backward, or retrograde, orbit. Neptune's enigmatic allure continues to draw the attention of astronomers, inviting us to peer into the depths of a world that remains beyond our immediate reach."
+        "longDescription": "Neptune, the eighth and farthest known planet from the Sun, is a distant and captivating world. With its striking deep blue coloration and numerous atmospheric storms, Neptune's features remain largely hidden from human eyes due to its immense distance from Earth. Approximately 4.4 billion kilometers away, Neptune boasts a complex atmosphere of hydrogen, helium, and traces of methane that contribute to its unique appearance. The planet's weather is characterized by the Great Dark Spot, a storm system akin to Jupiter's Great Red Spot. Neptune's atmosphere is believed to consist of layers of clouds and icy particles, making it one of the coldest places in our solar system. This distant giant also hosts a mysterious moon, Triton, which features active geysers and a backward, or retrograde, orbit. Neptune's enigmatic allure continues to draw the attention of astronomers, inviting us to peer into the depths of a world that remains beyond our immediate reach.",
+        "day":52
       }
     ]
   }
